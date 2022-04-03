@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>AS_831</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>oiKtGxTQ7AQ7/utWYmX9cvzVpDY=03.04.2022 9:25:2803.04.2022 9:25:28</TimeStamp>
+        <ID>
+          <String>Ulight Gbv</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>XOKgDd4ZkIf6WUsjT1phscbwPuE=03.04.2022 9:25:5403.04.2022 9:25:53</TimeStamp>
+        <ID>
+          <String>Ulight Gbv</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1DPwRWW0ft5bKjRFSdsKsruMEGs=03.04.2022 9:35:1303.04.2022 9:27:32</TimeStamp>
+        <ID>
+          <String>Dim Gbv Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ElQ5R8h8o/17srZhxoWdx7rVn5I=03.04.2022 9:28:1403.04.2022 9:28:14</TimeStamp>
+        <ID>
+          <String>Dim Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oF996NLFVsZ0EM1HVo9G3vySUwM=03.04.2022 9:28:2703.04.2022 9:28:27</TimeStamp>
+        <ID>
+          <String>Dim Murderer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CYaeCJSRm9+A5o1uYVlyWBsCX8w=03.04.2022 9:28:4203.04.2022 9:28:42</TimeStamp>
+        <ID>
+          <String>Dim Murder Motive</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VI3SlIBD/LdaUxMlmFFguYAS4zs=03.04.2022 9:28:5703.04.2022 9:28:57</TimeStamp>
+        <ID>
+          <String>Dim Perpetrator Status</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>w+IAdh3de+VIlKWFeGOzuijx41o=03.04.2022 9:29:1203.04.2022 9:29:12</TimeStamp>
+        <ID>
+          <String>Dim Protection Request</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hzk1/Ocmo2GGgbffLL7ts+vtlI8=03.04.2022 9:29:2503.04.2022 9:29:25</TimeStamp>
+        <ID>
+          <String>Dim Way Killing</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4MIcXhFf0y2m9PFm9+ei+sH/KY4=03.04.2022 9:30:2003.04.2022 9:30:20</TimeStamp>
+        <ID>
+          <String>Fact GBV</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>kEFl4PZsgnVndTDUKEyomgoF/Go=03.04.2022 9:33:3003.04.2022 9:30:5898XRWCOd0Ywgyg9ft2Y9z1ZkzL0=03.04.2022 9:30:5803.04.2022 9:30:58</TimeStamp>
+        <ID>
+          <String>Ulight Gbv</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>BcRCcvtYZdk6v2IZlwM0/mhFxeQ=19.03.2022 0:07:0703.04.2022 9:23:15</TimeStamp>
+      <ID>
+        <String>AS_831</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-04-03T04:47:25.143333Z</LastDeployed>
+</DeploymentSnapshot>

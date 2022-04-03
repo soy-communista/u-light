@@ -1,0 +1,325 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="07665ccd-17ca-42c7-a073-31eea4582af8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Gbv Date</ID>
+  <Name>Dim Gbv Date</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1607" scrolltop="-4603" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6694" y="12779" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimGbvDate" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3440" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000700d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimGbvDate" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1607</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4603</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="108">
+            <Shape Id="GBV DATE KEY" Expanded="false">
+              <Attributes>
+                <Attribute Id="GBV DATE KEY" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="GBV DATE" Expanded="true">
+              <Attributes>
+                <Attribute Id="GBV DATE" />
+              </Attributes>
+              <Position x="160" y="20" />
+            </Shape>
+            <Shape Id="GBV DAY" Expanded="false">
+              <Attributes>
+                <Attribute Id="GBV DAY" />
+              </Attributes>
+              <Position x="300" y="20" />
+            </Shape>
+            <Shape Id="GBV MONTH" Expanded="false">
+              <Attributes>
+                <Attribute Id="GBV MONTH" />
+              </Attributes>
+              <Position x="440" y="20" />
+            </Shape>
+            <Shape Id="GBV YEAR" Expanded="false">
+              <Attributes>
+                <Attribute Id="GBV YEAR" />
+              </Attributes>
+              <Position x="580" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d7868ec3-6af5-44cb-9a1b-a32cce69593d">
+    <DataSourceViewID>Ulight Gbv</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="73de2651-4ad9-4539-ae5b-c114d85e15e2">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="56433518-cc39-4b41-ad8f-6cba3038cb7a">
+      <ID>GBV DATE KEY</ID>
+      <Name>GBV DATE KEY</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3d3132d9-107f-42b3-b26a-0b019d6af849">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2dd41795-690d-482c-b838-9673729c7ef8">
+            <TableID>dbo_DimGbvDate</TableID>
+            <ColumnID>GBV_DATE_KEY</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="064ac69c-5cf6-4c22-8280-1200ad60de74">
+          <AttributeID>GBV DATE</AttributeID>
+          <Name>GBV DATE</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="00599925-af83-4f6f-8469-3d836f218b91">
+      <ID>GBV DATE</ID>
+      <Name>GBV DATE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="339c3235-de65-42aa-8076-0b21eac741e0">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aa1c3d99-7b67-44b7-b81d-384d11666e82">
+            <TableID>dbo_DimGbvDate</TableID>
+            <ColumnID>GBV_YEAR</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="c4846657-f986-4ef2-ad33-518af2a83e9d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d575f02-2089-4481-9c31-9694f951b70c">
+            <TableID>dbo_DimGbvDate</TableID>
+            <ColumnID>GBV_MONTH</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="8bad927c-82b8-46b3-bd0c-bdd15d48ec22">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9da45abe-4ae0-4ba4-9fd3-76c43a2ca8d8">
+            <TableID>dbo_DimGbvDate</TableID>
+            <ColumnID>GBV_DAY</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="c7f0c198-b501-451a-ad2e-96801ead9622">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dbf7404d-45cf-429a-947c-afe719faf604">
+            <TableID>dbo_DimGbvDate</TableID>
+            <ColumnID>GBV_DATE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="39572495-0bd9-4b8c-9748-e6485a4a3742">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="590785e1-7bc1-4871-ad46-ad88792f9d02">
+          <TableID>dbo_DimGbvDate</TableID>
+          <ColumnID>GBV_DATE</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="88c56634-07ab-4221-bab3-c7dc92031277">
+          <AttributeID>GBV DAY</AttributeID>
+          <Name>GBV DAY</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7f37e696-68b9-4063-95fa-fb0125b77081">
+      <ID>GBV DAY</ID>
+      <Name>GBV DAY</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b7747350-f1ad-4149-9091-4caaea0881ca">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="de8fbf83-e3dd-4fe1-988b-cbd55cc55058">
+            <TableID>dbo_DimGbvDate</TableID>
+            <ColumnID>GBV_YEAR</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="d9cfd03b-de91-4a7a-8b7f-7c5e3a54786e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7dea497a-5e93-41ad-a237-b3fc99e797fb">
+            <TableID>dbo_DimGbvDate</TableID>
+            <ColumnID>GBV_MONTH</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="902c472b-032f-48ba-b04e-280c2e9ffbcb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5db7a32f-7ac9-4666-99c3-eb05cb682da8">
+            <TableID>dbo_DimGbvDate</TableID>
+            <ColumnID>GBV_DAY</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a36560d9-f7a7-4835-ae87-7fae7bb9cad6">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b8b62001-2a50-406b-bc86-67b6d5517e3d">
+          <TableID>dbo_DimGbvDate</TableID>
+          <ColumnID>GBV_DAY</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1b665e47-48c0-4eb5-b3ef-a92056e97cf1">
+          <AttributeID>GBV MONTH</AttributeID>
+          <Name>GBV MONTH</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eb42e204-c79d-485c-af5d-8c0d42b72e6b">
+      <ID>GBV MONTH</ID>
+      <Name>GBV MONTH</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="acb84f6c-d5d9-438c-9927-191046a8c79c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b96b4077-a02b-4b9b-8ab5-2528a78562c9">
+            <TableID>dbo_DimGbvDate</TableID>
+            <ColumnID>GBV_MONTH</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="ac53c659-853e-4c2e-b475-c89f8bf99697">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3cc75642-49ef-43e1-b07a-5a08189b468f">
+            <TableID>dbo_DimGbvDate</TableID>
+            <ColumnID>GBV_YEAR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="6454fae7-bcd8-4988-84e8-9ec5150d5625">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="34802eef-0908-42a2-8d03-3a976835076b">
+          <TableID>dbo_DimGbvDate</TableID>
+          <ColumnID>GBV_MONTH</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="125cafb3-503b-4d6c-a43d-5131908b4bc3">
+          <AttributeID>GBV YEAR</AttributeID>
+          <Name>GBV YEAR</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d88a94ca-416c-4a32-bf33-618cf03d8af0">
+      <ID>GBV YEAR</ID>
+      <Name>GBV YEAR</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f0293094-a6ea-43d2-a55e-ba6eafd3349e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d496de33-0315-4873-8efa-491fead5d3ac">
+            <TableID>dbo_DimGbvDate</TableID>
+            <ColumnID>GBV_YEAR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a9036501-4b2d-4d5f-9448-d4b19d3c29eb">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f89c4df4-ac64-4ef4-aee9-4399e922bfe6">
+          <TableID>dbo_DimGbvDate</TableID>
+          <ColumnID>GBV_YEAR</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="d746a6e6-d347-457a-905f-447c3ed91269">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="47526d5d-47e8-438d-af3e-d19c9c94988c">
+          <ID>GBV YEAR</ID>
+          <Name>GBV YEAR</Name>
+          <SourceAttributeID>GBV YEAR</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="35c96a66-4c6e-4833-b479-a2b7961b720c">
+          <ID>GBV MONTH</ID>
+          <Name>GBV MONTH</Name>
+          <SourceAttributeID>GBV MONTH</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="59b781ca-af6c-425a-8213-58bda4b9fd31">
+          <ID>GBV DAY</ID>
+          <Name>GBV DAY</Name>
+          <SourceAttributeID>GBV DAY</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="fe479ffc-053b-45a5-8981-0a30d5e0d4a3">
+          <ID>GBV DATE</ID>
+          <Name>GBV DATE</Name>
+          <SourceAttributeID>GBV DATE</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
